@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		716C9BEF1BFC10E600B1B75A /* RayHeadZoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716C9BEE1BFC10E600B1B75A /* RayHeadZoomView.swift */; settings = {ASSET_TAGS = (); }; };
+		716C9BF11BFC10F900B1B75A /* RayHeadZoomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 716C9BF01BFC10F900B1B75A /* RayHeadZoomView.xib */; settings = {ASSET_TAGS = (); }; };
+		716C9BF31BFC1A9F00B1B75A /* RayBaseHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716C9BF21BFC1A9F00B1B75A /* RayBaseHeadView.swift */; settings = {ASSET_TAGS = (); }; };
+		716C9BF51BFC75BD00B1B75A /* RayBaseFootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716C9BF41BFC75BC00B1B75A /* RayBaseFootView.swift */; settings = {ASSET_TAGS = (); }; };
+		71B274751BEC9C6200E7C7A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B274741BEC9C6200E7C7A2 /* AppDelegate.swift */; };
+		71B274771BEC9C6200E7C7A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B274761BEC9C6200E7C7A2 /* ViewController.swift */; };
+		71B2747A1BEC9C6200E7C7A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B274781BEC9C6200E7C7A2 /* Main.storyboard */; };
+		71B2747C1BEC9C6200E7C7A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71B2747B1BEC9C6200E7C7A2 /* Assets.xcassets */; };
+		71B2747F1BEC9C6200E7C7A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B2747D1BEC9C6200E7C7A2 /* LaunchScreen.storyboard */; };
+		71B2748A1BEC9C6200E7C7A2 /* RayPullToRefreshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B274891BEC9C6200E7C7A2 /* RayPullToRefreshTests.swift */; };
+		71B274951BEC9C6200E7C7A2 /* RayPullToRefreshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B274941BEC9C6200E7C7A2 /* RayPullToRefreshUITests.swift */; };
+		71B274A31BEC9C9E00E7C7A2 /* RayTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B274A21BEC9C9E00E7C7A2 /* RayTableView.swift */; settings = {ASSET_TAGS = (); }; };
+		71D983751BF077FA00239B9F /* RayHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D983741BF077FA00239B9F /* RayHeadView.swift */; settings = {ASSET_TAGS = (); }; };
+		71D983771BF0783D00239B9F /* RayHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71D983761BF0783D00239B9F /* RayHeadView.xib */; settings = {ASSET_TAGS = (); }; };
+		71EC62411BF18B7B009E7968 /* RayFootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EC62401BF18B7B009E7968 /* RayFootView.swift */; settings = {ASSET_TAGS = (); }; };
+		71EC62431BF18B89009E7968 /* RayFootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71EC62421BF18B89009E7968 /* RayFootView.xib */; settings = {ASSET_TAGS = (); }; };
+		71EC62461BF19968009E7968 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EC62441BF19968009E7968 /* MainTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		71EC62471BF19968009E7968 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71EC62451BF19968009E7968 /* MainTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71B274861BEC9C6200E7C7A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71B274691BEC9C6200E7C7A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71B274701BEC9C6200E7C7A2;
+			remoteInfo = RayPullToRefresh;
+		};
+		71B274911BEC9C6200E7C7A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71B274691BEC9C6200E7C7A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71B274701BEC9C6200E7C7A2;
+			remoteInfo = RayPullToRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		716C9BEE1BFC10E600B1B75A /* RayHeadZoomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RayHeadZoomView.swift; sourceTree = "<group>"; };
+		716C9BF01BFC10F900B1B75A /* RayHeadZoomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RayHeadZoomView.xib; sourceTree = "<group>"; };
+		716C9BF21BFC1A9F00B1B75A /* RayBaseHeadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RayBaseHeadView.swift; sourceTree = "<group>"; };
+		716C9BF41BFC75BC00B1B75A /* RayBaseFootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RayBaseFootView.swift; sourceTree = "<group>"; };
+		71B274711BEC9C6200E7C7A2 /* RayPullToRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RayPullToRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B274741BEC9C6200E7C7A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71B274761BEC9C6200E7C7A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		71B274791BEC9C6200E7C7A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71B2747B1BEC9C6200E7C7A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71B2747E1BEC9C6200E7C7A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71B274801BEC9C6200E7C7A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71B274851BEC9C6200E7C7A2 /* RayPullToRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RayPullToRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B274891BEC9C6200E7C7A2 /* RayPullToRefreshTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RayPullToRefreshTests.swift; sourceTree = "<group>"; };
+		71B2748B1BEC9C6200E7C7A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71B274901BEC9C6200E7C7A2 /* RayPullToRefreshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RayPullToRefreshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B274941BEC9C6200E7C7A2 /* RayPullToRefreshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RayPullToRefreshUITests.swift; sourceTree = "<group>"; };
+		71B274961BEC9C6200E7C7A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71B274A21BEC9C9E00E7C7A2 /* RayTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RayTableView.swift; sourceTree = "<group>"; };
+		71D983741BF077FA00239B9F /* RayHeadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RayHeadView.swift; sourceTree = "<group>"; };
+		71D983761BF0783D00239B9F /* RayHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RayHeadView.xib; sourceTree = "<group>"; };
+		71EC62401BF18B7B009E7968 /* RayFootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RayFootView.swift; sourceTree = "<group>"; };
+		71EC62421BF18B89009E7968 /* RayFootView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RayFootView.xib; sourceTree = "<group>"; };
+		71EC62441BF19968009E7968 /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		71EC62451BF19968009E7968 /* MainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71B2746E1BEC9C6200E7C7A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71B274821BEC9C6200E7C7A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71B2748D1BEC9C6200E7C7A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71B274681BEC9C6200E7C7A2 = {
+			isa = PBXGroup;
+			children = (
+				71B274731BEC9C6200E7C7A2 /* RayPullToRefresh */,
+				71B274881BEC9C6200E7C7A2 /* RayPullToRefreshTests */,
+				71B274931BEC9C6200E7C7A2 /* RayPullToRefreshUITests */,
+				71B274721BEC9C6200E7C7A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71B274721BEC9C6200E7C7A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71B274711BEC9C6200E7C7A2 /* RayPullToRefresh.app */,
+				71B274851BEC9C6200E7C7A2 /* RayPullToRefreshTests.xctest */,
+				71B274901BEC9C6200E7C7A2 /* RayPullToRefreshUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71B274731BEC9C6200E7C7A2 /* RayPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				71B274A41BEC9CC000E7C7A2 /* RayPullToRefresh */,
+				71B274741BEC9C6200E7C7A2 /* AppDelegate.swift */,
+				71B274761BEC9C6200E7C7A2 /* ViewController.swift */,
+				71EC62441BF19968009E7968 /* MainTableViewCell.swift */,
+				71EC62451BF19968009E7968 /* MainTableViewCell.xib */,
+				71B274781BEC9C6200E7C7A2 /* Main.storyboard */,
+				71B2747B1BEC9C6200E7C7A2 /* Assets.xcassets */,
+				71B2747D1BEC9C6200E7C7A2 /* LaunchScreen.storyboard */,
+				71B274801BEC9C6200E7C7A2 /* Info.plist */,
+			);
+			path = RayPullToRefresh;
+			sourceTree = "<group>";
+		};
+		71B274881BEC9C6200E7C7A2 /* RayPullToRefreshTests */ = {
+			isa = PBXGroup;
+			children = (
+				71B274891BEC9C6200E7C7A2 /* RayPullToRefreshTests.swift */,
+				71B2748B1BEC9C6200E7C7A2 /* Info.plist */,
+			);
+			path = RayPullToRefreshTests;
+			sourceTree = "<group>";
+		};
+		71B274931BEC9C6200E7C7A2 /* RayPullToRefreshUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71B274941BEC9C6200E7C7A2 /* RayPullToRefreshUITests.swift */,
+				71B274961BEC9C6200E7C7A2 /* Info.plist */,
+			);
+			path = RayPullToRefreshUITests;
+			sourceTree = "<group>";
+		};
+		71B274A41BEC9CC000E7C7A2 /* RayPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				71B274A21BEC9C9E00E7C7A2 /* RayTableView.swift */,
+				71D983741BF077FA00239B9F /* RayHeadView.swift */,
+				71D983761BF0783D00239B9F /* RayHeadView.xib */,
+				71EC62401BF18B7B009E7968 /* RayFootView.swift */,
+				71EC62421BF18B89009E7968 /* RayFootView.xib */,
+				716C9BEE1BFC10E600B1B75A /* RayHeadZoomView.swift */,
+				716C9BF01BFC10F900B1B75A /* RayHeadZoomView.xib */,
+				716C9BF21BFC1A9F00B1B75A /* RayBaseHeadView.swift */,
+				716C9BF41BFC75BC00B1B75A /* RayBaseFootView.swift */,
+			);
+			name = RayPullToRefresh;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71B274701BEC9C6200E7C7A2 /* RayPullToRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71B274991BEC9C6200E7C7A2 /* Build configuration list for PBXNativeTarget "RayPullToRefresh" */;
+			buildPhases = (
+				71B2746D1BEC9C6200E7C7A2 /* Sources */,
+				71B2746E1BEC9C6200E7C7A2 /* Frameworks */,
+				71B2746F1BEC9C6200E7C7A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RayPullToRefresh;
+			productName = RayPullToRefresh;
+			productReference = 71B274711BEC9C6200E7C7A2 /* RayPullToRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71B274841BEC9C6200E7C7A2 /* RayPullToRefreshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71B2749C1BEC9C6200E7C7A2 /* Build configuration list for PBXNativeTarget "RayPullToRefreshTests" */;
+			buildPhases = (
+				71B274811BEC9C6200E7C7A2 /* Sources */,
+				71B274821BEC9C6200E7C7A2 /* Frameworks */,
+				71B274831BEC9C6200E7C7A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71B274871BEC9C6200E7C7A2 /* PBXTargetDependency */,
+			);
+			name = RayPullToRefreshTests;
+			productName = RayPullToRefreshTests;
+			productReference = 71B274851BEC9C6200E7C7A2 /* RayPullToRefreshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71B2748F1BEC9C6200E7C7A2 /* RayPullToRefreshUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71B2749F1BEC9C6200E7C7A2 /* Build configuration list for PBXNativeTarget "RayPullToRefreshUITests" */;
+			buildPhases = (
+				71B2748C1BEC9C6200E7C7A2 /* Sources */,
+				71B2748D1BEC9C6200E7C7A2 /* Frameworks */,
+				71B2748E1BEC9C6200E7C7A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71B274921BEC9C6200E7C7A2 /* PBXTargetDependency */,
+			);
+			name = RayPullToRefreshUITests;
+			productName = RayPullToRefreshUITests;
+			productReference = 71B274901BEC9C6200E7C7A2 /* RayPullToRefreshUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71B274691BEC9C6200E7C7A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = ray;
+				TargetAttributes = {
+					71B274701BEC9C6200E7C7A2 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					71B274841BEC9C6200E7C7A2 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 71B274701BEC9C6200E7C7A2;
+					};
+					71B2748F1BEC9C6200E7C7A2 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 71B274701BEC9C6200E7C7A2;
+					};
+				};
+			};
+			buildConfigurationList = 71B2746C1BEC9C6200E7C7A2 /* Build configuration list for PBXProject "RayPullToRefresh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71B274681BEC9C6200E7C7A2;
+			productRefGroup = 71B274721BEC9C6200E7C7A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71B274701BEC9C6200E7C7A2 /* RayPullToRefresh */,
+				71B274841BEC9C6200E7C7A2 /* RayPullToRefreshTests */,
+				71B2748F1BEC9C6200E7C7A2 /* RayPullToRefreshUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71B2746F1BEC9C6200E7C7A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71EC62471BF19968009E7968 /* MainTableViewCell.xib in Resources */,
+				71EC62431BF18B89009E7968 /* RayFootView.xib in Resources */,
+				716C9BF11BFC10F900B1B75A /* RayHeadZoomView.xib in Resources */,
+				71B2747F1BEC9C6200E7C7A2 /* LaunchScreen.storyboard in Resources */,
+				71D983771BF0783D00239B9F /* RayHeadView.xib in Resources */,
+				71B2747C1BEC9C6200E7C7A2 /* Assets.xcassets in Resources */,
+				71B2747A1BEC9C6200E7C7A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71B274831BEC9C6200E7C7A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71B2748E1BEC9C6200E7C7A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71B2746D1BEC9C6200E7C7A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				716C9BEF1BFC10E600B1B75A /* RayHeadZoomView.swift in Sources */,
+				71EC62411BF18B7B009E7968 /* RayFootView.swift in Sources */,
+				71B274771BEC9C6200E7C7A2 /* ViewController.swift in Sources */,
+				71D983751BF077FA00239B9F /* RayHeadView.swift in Sources */,
+				716C9BF31BFC1A9F00B1B75A /* RayBaseHeadView.swift in Sources */,
+				71B274A31BEC9C9E00E7C7A2 /* RayTableView.swift in Sources */,
+				716C9BF51BFC75BD00B1B75A /* RayBaseFootView.swift in Sources */,
+				71EC62461BF19968009E7968 /* MainTableViewCell.swift in Sources */,
+				71B274751BEC9C6200E7C7A2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71B274811BEC9C6200E7C7A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71B2748A1BEC9C6200E7C7A2 /* RayPullToRefreshTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71B2748C1BEC9C6200E7C7A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71B274951BEC9C6200E7C7A2 /* RayPullToRefreshUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71B274871BEC9C6200E7C7A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71B274701BEC9C6200E7C7A2 /* RayPullToRefresh */;
+			targetProxy = 71B274861BEC9C6200E7C7A2 /* PBXContainerItemProxy */;
+		};
+		71B274921BEC9C6200E7C7A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71B274701BEC9C6200E7C7A2 /* RayPullToRefresh */;
+			targetProxy = 71B274911BEC9C6200E7C7A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71B274781BEC9C6200E7C7A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71B274791BEC9C6200E7C7A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71B2747D1BEC9C6200E7C7A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71B2747E1BEC9C6200E7C7A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71B274971BEC9C6200E7C7A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71B274981BEC9C6200E7C7A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71B2749A1BEC9C6200E7C7A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RayPullToRefresh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ray.RayPullToRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		71B2749B1BEC9C6200E7C7A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RayPullToRefresh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ray.RayPullToRefresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		71B2749D1BEC9C6200E7C7A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RayPullToRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ray.RayPullToRefreshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RayPullToRefresh.app/RayPullToRefresh";
+			};
+			name = Debug;
+		};
+		71B2749E1BEC9C6200E7C7A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RayPullToRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ray.RayPullToRefreshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RayPullToRefresh.app/RayPullToRefresh";
+			};
+			name = Release;
+		};
+		71B274A01BEC9C6200E7C7A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RayPullToRefreshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ray.RayPullToRefreshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RayPullToRefresh;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		71B274A11BEC9C6200E7C7A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RayPullToRefreshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ray.RayPullToRefreshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RayPullToRefresh;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71B2746C1BEC9C6200E7C7A2 /* Build configuration list for PBXProject "RayPullToRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71B274971BEC9C6200E7C7A2 /* Debug */,
+				71B274981BEC9C6200E7C7A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71B274991BEC9C6200E7C7A2 /* Build configuration list for PBXNativeTarget "RayPullToRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71B2749A1BEC9C6200E7C7A2 /* Debug */,
+				71B2749B1BEC9C6200E7C7A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71B2749C1BEC9C6200E7C7A2 /* Build configuration list for PBXNativeTarget "RayPullToRefreshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71B2749D1BEC9C6200E7C7A2 /* Debug */,
+				71B2749E1BEC9C6200E7C7A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71B2749F1BEC9C6200E7C7A2 /* Build configuration list for PBXNativeTarget "RayPullToRefreshUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71B274A01BEC9C6200E7C7A2 /* Debug */,
+				71B274A11BEC9C6200E7C7A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71B274691BEC9C6200E7C7A2 /* Project object */;
+}

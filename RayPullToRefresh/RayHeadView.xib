@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="RayHeadView" customModule="RayPullToRefresh" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="65"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="下拉刷新" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vdv-iX-yLf">
+                    <rect key="frame" x="270" y="24" width="60" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_up" translatesAutoresizingMaskIntoConstraints="NO" id="rOz-GY-TCA">
+                    <rect key="frame" x="18" y="0.0" width="23" height="60"/>
+                </imageView>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="KCq-QP-SiI">
+                    <rect key="frame" x="19" y="20" width="20" height="20"/>
+                    <color key="color" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </activityIndicatorView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="vdv-iX-yLf" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="P1C-TX-GTJ"/>
+                <constraint firstAttribute="bottom" secondItem="rOz-GY-TCA" secondAttribute="bottom" constant="5" id="VZN-ne-OZF"/>
+                <constraint firstItem="KCq-QP-SiI" firstAttribute="centerX" secondItem="rOz-GY-TCA" secondAttribute="centerX" id="gQ5-sy-gfY"/>
+                <constraint firstItem="KCq-QP-SiI" firstAttribute="centerY" secondItem="rOz-GY-TCA" secondAttribute="centerY" id="q1z-4n-fgI"/>
+                <constraint firstItem="vdv-iX-yLf" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="sel-70-jYs"/>
+                <constraint firstItem="rOz-GY-TCA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="18" id="yfQ-Uz-h1y"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imageArraw" destination="rOz-GY-TCA" id="KEl-l8-cpY"/>
+                <outlet property="indicatorHead" destination="KCq-QP-SiI" id="mVa-Sq-Obj"/>
+                <outlet property="labelHint" destination="vdv-iX-yLf" id="fjr-eQ-1cp"/>
+            </connections>
+            <point key="canvasLocation" x="222" y="239.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrow_up" width="23" height="60"/>
+    </resources>
+</document>
