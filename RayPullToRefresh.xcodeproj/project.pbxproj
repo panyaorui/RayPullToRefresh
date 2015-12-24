@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		716C9BEF1BFC10E600B1B75A /* RayHeadZoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716C9BEE1BFC10E600B1B75A /* RayHeadZoomView.swift */; settings = {ASSET_TAGS = (); }; };
-		716C9BF11BFC10F900B1B75A /* RayHeadZoomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 716C9BF01BFC10F900B1B75A /* RayHeadZoomView.xib */; settings = {ASSET_TAGS = (); }; };
-		716C9BF31BFC1A9F00B1B75A /* RayBaseHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716C9BF21BFC1A9F00B1B75A /* RayBaseHeadView.swift */; settings = {ASSET_TAGS = (); }; };
-		716C9BF51BFC75BD00B1B75A /* RayBaseFootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716C9BF41BFC75BC00B1B75A /* RayBaseFootView.swift */; settings = {ASSET_TAGS = (); }; };
 		71B274751BEC9C6200E7C7A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B274741BEC9C6200E7C7A2 /* AppDelegate.swift */; };
 		71B274771BEC9C6200E7C7A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B274761BEC9C6200E7C7A2 /* ViewController.swift */; };
 		71B2747A1BEC9C6200E7C7A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B274781BEC9C6200E7C7A2 /* Main.storyboard */; };
@@ -18,11 +14,15 @@
 		71B2747F1BEC9C6200E7C7A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B2747D1BEC9C6200E7C7A2 /* LaunchScreen.storyboard */; };
 		71B2748A1BEC9C6200E7C7A2 /* RayPullToRefreshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B274891BEC9C6200E7C7A2 /* RayPullToRefreshTests.swift */; };
 		71B274951BEC9C6200E7C7A2 /* RayPullToRefreshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B274941BEC9C6200E7C7A2 /* RayPullToRefreshUITests.swift */; };
-		71B274A31BEC9C9E00E7C7A2 /* RayTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B274A21BEC9C9E00E7C7A2 /* RayTableView.swift */; settings = {ASSET_TAGS = (); }; };
-		71D983751BF077FA00239B9F /* RayHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D983741BF077FA00239B9F /* RayHeadView.swift */; settings = {ASSET_TAGS = (); }; };
-		71D983771BF0783D00239B9F /* RayHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71D983761BF0783D00239B9F /* RayHeadView.xib */; settings = {ASSET_TAGS = (); }; };
-		71EC62411BF18B7B009E7968 /* RayFootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EC62401BF18B7B009E7968 /* RayFootView.swift */; settings = {ASSET_TAGS = (); }; };
-		71EC62431BF18B89009E7968 /* RayFootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71EC62421BF18B89009E7968 /* RayFootView.xib */; settings = {ASSET_TAGS = (); }; };
+		71B61A901C2BE00300508011 /* RayBaseFootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B61A871C2BE00300508011 /* RayBaseFootView.swift */; settings = {ASSET_TAGS = (); }; };
+		71B61A911C2BE00300508011 /* RayBaseHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B61A881C2BE00300508011 /* RayBaseHeadView.swift */; settings = {ASSET_TAGS = (); }; };
+		71B61A921C2BE00300508011 /* RayHeadZoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B61A891C2BE00300508011 /* RayHeadZoomView.swift */; settings = {ASSET_TAGS = (); }; };
+		71B61A931C2BE00300508011 /* RayHeadZoomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71B61A8A1C2BE00300508011 /* RayHeadZoomView.xib */; settings = {ASSET_TAGS = (); }; };
+		71B61A941C2BE00300508011 /* RayFootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B61A8B1C2BE00300508011 /* RayFootView.swift */; settings = {ASSET_TAGS = (); }; };
+		71B61A951C2BE00300508011 /* RayFootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71B61A8C1C2BE00300508011 /* RayFootView.xib */; settings = {ASSET_TAGS = (); }; };
+		71B61A961C2BE00300508011 /* RayHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B61A8D1C2BE00300508011 /* RayHeadView.swift */; settings = {ASSET_TAGS = (); }; };
+		71B61A971C2BE00300508011 /* RayHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71B61A8E1C2BE00300508011 /* RayHeadView.xib */; settings = {ASSET_TAGS = (); }; };
+		71B61A981C2BE00300508011 /* RayTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B61A8F1C2BE00300508011 /* RayTableView.swift */; settings = {ASSET_TAGS = (); }; };
 		71EC62461BF19968009E7968 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EC62441BF19968009E7968 /* MainTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 		71EC62471BF19968009E7968 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71EC62451BF19968009E7968 /* MainTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
@@ -45,10 +45,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		716C9BEE1BFC10E600B1B75A /* RayHeadZoomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RayHeadZoomView.swift; sourceTree = "<group>"; };
-		716C9BF01BFC10F900B1B75A /* RayHeadZoomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RayHeadZoomView.xib; sourceTree = "<group>"; };
-		716C9BF21BFC1A9F00B1B75A /* RayBaseHeadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RayBaseHeadView.swift; sourceTree = "<group>"; };
-		716C9BF41BFC75BC00B1B75A /* RayBaseFootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RayBaseFootView.swift; sourceTree = "<group>"; };
 		71B274711BEC9C6200E7C7A2 /* RayPullToRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RayPullToRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71B274741BEC9C6200E7C7A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71B274761BEC9C6200E7C7A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,11 +58,15 @@
 		71B274901BEC9C6200E7C7A2 /* RayPullToRefreshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RayPullToRefreshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71B274941BEC9C6200E7C7A2 /* RayPullToRefreshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RayPullToRefreshUITests.swift; sourceTree = "<group>"; };
 		71B274961BEC9C6200E7C7A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		71B274A21BEC9C9E00E7C7A2 /* RayTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RayTableView.swift; sourceTree = "<group>"; };
-		71D983741BF077FA00239B9F /* RayHeadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RayHeadView.swift; sourceTree = "<group>"; };
-		71D983761BF0783D00239B9F /* RayHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RayHeadView.xib; sourceTree = "<group>"; };
-		71EC62401BF18B7B009E7968 /* RayFootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RayFootView.swift; sourceTree = "<group>"; };
-		71EC62421BF18B89009E7968 /* RayFootView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RayFootView.xib; sourceTree = "<group>"; };
+		71B61A871C2BE00300508011 /* RayBaseFootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RayBaseFootView.swift; path = PullToRefresh/RayBaseFootView.swift; sourceTree = SOURCE_ROOT; };
+		71B61A881C2BE00300508011 /* RayBaseHeadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RayBaseHeadView.swift; path = PullToRefresh/RayBaseHeadView.swift; sourceTree = SOURCE_ROOT; };
+		71B61A891C2BE00300508011 /* RayHeadZoomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RayHeadZoomView.swift; path = PullToRefresh/RayHeadZoomView.swift; sourceTree = SOURCE_ROOT; };
+		71B61A8A1C2BE00300508011 /* RayHeadZoomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RayHeadZoomView.xib; path = PullToRefresh/RayHeadZoomView.xib; sourceTree = SOURCE_ROOT; };
+		71B61A8B1C2BE00300508011 /* RayFootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RayFootView.swift; path = PullToRefresh/RayFootView.swift; sourceTree = SOURCE_ROOT; };
+		71B61A8C1C2BE00300508011 /* RayFootView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RayFootView.xib; path = PullToRefresh/RayFootView.xib; sourceTree = SOURCE_ROOT; };
+		71B61A8D1C2BE00300508011 /* RayHeadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RayHeadView.swift; path = PullToRefresh/RayHeadView.swift; sourceTree = SOURCE_ROOT; };
+		71B61A8E1C2BE00300508011 /* RayHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RayHeadView.xib; path = PullToRefresh/RayHeadView.xib; sourceTree = SOURCE_ROOT; };
+		71B61A8F1C2BE00300508011 /* RayTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RayTableView.swift; path = PullToRefresh/RayTableView.swift; sourceTree = SOURCE_ROOT; };
 		71EC62441BF19968009E7968 /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		71EC62451BF19968009E7968 /* MainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -153,15 +153,15 @@
 		71B274A41BEC9CC000E7C7A2 /* RayPullToRefresh */ = {
 			isa = PBXGroup;
 			children = (
-				71B274A21BEC9C9E00E7C7A2 /* RayTableView.swift */,
-				71D983741BF077FA00239B9F /* RayHeadView.swift */,
-				71D983761BF0783D00239B9F /* RayHeadView.xib */,
-				71EC62401BF18B7B009E7968 /* RayFootView.swift */,
-				71EC62421BF18B89009E7968 /* RayFootView.xib */,
-				716C9BEE1BFC10E600B1B75A /* RayHeadZoomView.swift */,
-				716C9BF01BFC10F900B1B75A /* RayHeadZoomView.xib */,
-				716C9BF21BFC1A9F00B1B75A /* RayBaseHeadView.swift */,
-				716C9BF41BFC75BC00B1B75A /* RayBaseFootView.swift */,
+				71B61A871C2BE00300508011 /* RayBaseFootView.swift */,
+				71B61A881C2BE00300508011 /* RayBaseHeadView.swift */,
+				71B61A891C2BE00300508011 /* RayHeadZoomView.swift */,
+				71B61A8A1C2BE00300508011 /* RayHeadZoomView.xib */,
+				71B61A8B1C2BE00300508011 /* RayFootView.swift */,
+				71B61A8C1C2BE00300508011 /* RayFootView.xib */,
+				71B61A8D1C2BE00300508011 /* RayHeadView.swift */,
+				71B61A8E1C2BE00300508011 /* RayHeadView.xib */,
+				71B61A8F1C2BE00300508011 /* RayTableView.swift */,
 			);
 			name = RayPullToRefresh;
 			sourceTree = "<group>";
@@ -270,10 +270,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				71EC62471BF19968009E7968 /* MainTableViewCell.xib in Resources */,
-				71EC62431BF18B89009E7968 /* RayFootView.xib in Resources */,
-				716C9BF11BFC10F900B1B75A /* RayHeadZoomView.xib in Resources */,
+				71B61A931C2BE00300508011 /* RayHeadZoomView.xib in Resources */,
+				71B61A971C2BE00300508011 /* RayHeadView.xib in Resources */,
+				71B61A951C2BE00300508011 /* RayFootView.xib in Resources */,
 				71B2747F1BEC9C6200E7C7A2 /* LaunchScreen.storyboard in Resources */,
-				71D983771BF0783D00239B9F /* RayHeadView.xib in Resources */,
 				71B2747C1BEC9C6200E7C7A2 /* Assets.xcassets in Resources */,
 				71B2747A1BEC9C6200E7C7A2 /* Main.storyboard in Resources */,
 			);
@@ -300,14 +300,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				716C9BEF1BFC10E600B1B75A /* RayHeadZoomView.swift in Sources */,
-				71EC62411BF18B7B009E7968 /* RayFootView.swift in Sources */,
+				71B61A961C2BE00300508011 /* RayHeadView.swift in Sources */,
+				71B61A941C2BE00300508011 /* RayFootView.swift in Sources */,
+				71B61A921C2BE00300508011 /* RayHeadZoomView.swift in Sources */,
 				71B274771BEC9C6200E7C7A2 /* ViewController.swift in Sources */,
-				71D983751BF077FA00239B9F /* RayHeadView.swift in Sources */,
-				716C9BF31BFC1A9F00B1B75A /* RayBaseHeadView.swift in Sources */,
-				71B274A31BEC9C9E00E7C7A2 /* RayTableView.swift in Sources */,
-				716C9BF51BFC75BD00B1B75A /* RayBaseFootView.swift in Sources */,
+				71B61A981C2BE00300508011 /* RayTableView.swift in Sources */,
+				71B61A911C2BE00300508011 /* RayBaseHeadView.swift in Sources */,
 				71EC62461BF19968009E7968 /* MainTableViewCell.swift in Sources */,
+				71B61A901C2BE00300508011 /* RayBaseFootView.swift in Sources */,
 				71B274751BEC9C6200E7C7A2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
