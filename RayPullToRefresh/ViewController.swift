@@ -17,13 +17,20 @@ class ViewController: UIViewController,UITableViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
     
+        
+        
+    
+    }
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated);
+        
         self.tableView.refresh(RayTableViewAnimateType.Zoom) { () -> () in
             self.delay(2.0, closure: { () -> () in
                 self.size = 1;
                 self.tableView.reloadData();
                 self.tableView.completeDragRefresh();
             })
-
+            
         }
         
         self.tableView.more { () -> () in
@@ -34,11 +41,8 @@ class ViewController: UIViewController,UITableViewDataSource {
                 self.tableView.completeDragMore();
             })
         }
-        
-        
-    
-    }
 
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
